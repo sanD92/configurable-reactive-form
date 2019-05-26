@@ -2,6 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
 
+Reactive form generated using config JSON data or Metadata. 
+Uses the power of reactive form.
+How to use of ComponentFactoryResolver.
+How to use of ViewContainerRef.
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
