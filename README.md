@@ -32,3 +32,9 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 "# configurable-reactive-form" 
+
+##URL TO Learn More:
+https://dzone.com/articles/how-to-dynamically-create-a-component-in-angular
+https://blog.angularindepth.com/here-is-what-you-need-to-know-about-dynamic-components-in-angular-ac1e96167f9e
+https://www.agiratech.com/build-dynamic-component-in-angular-6/
+
