@@ -38,3 +38,20 @@ https://dzone.com/articles/how-to-dynamically-create-a-component-in-angular
 https://blog.angularindepth.com/here-is-what-you-need-to-know-about-dynamic-components-in-angular-ac1e96167f9e
 https://www.agiratech.com/build-dynamic-component-in-angular-6/
 
+
+if error 4200 already in use:
+
+For linux users:
+
+sudo kill $(sudo lsof -t -i:4200)
+You could also try this:
+sudo kill `sudo lsof -t -i:4200`
+
+For windows users:
+Port number 4200 is already in use. Type below command in cmd:
+netstat -a -n -o
+taskkill -f /pid 18932
+
+or
+
+netstat -ano | findstr :4200
