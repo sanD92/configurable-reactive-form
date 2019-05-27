@@ -9,10 +9,10 @@ import { Field } from '../../models/field.interface';
   styleUrls: ['./form-input.component.css'],
   template: `
   <div 
-    class="dynamic-field form-input" 
+    class="dynamic-field form-input form-group" 
     [formGroup]="group">
     <label>{{ config.label }}</label>
-    <input
+    <input class="form-control"
       type="text"
       [attr.placeholder]="config.placeholder"
       [formControlName]="config.name">

@@ -8,10 +8,11 @@ import { FormGroup } from '@angular/forms';
  // templateUrl: './form-button.component.html',
   styleUrls: ['./form-button.component.css'],
   template: `
+  <br/>
   <div 
-    class="dynamic-field form-button"
+    class="dynamic-field form-butto"
     [formGroup]="group">
-    <button
+    <button class="btn btn-primary"
       [disabled]="config.disabled"
       type="submit">
       {{ config.label }}

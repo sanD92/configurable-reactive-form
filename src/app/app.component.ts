@@ -8,7 +8,17 @@ import { Validators } from '@angular/forms';
   //templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
   template: `
-  <div class="app">
+
+  <div class="container">
+  <div class="row">
+    <div class="col-sm">
+      
+    </div>
+    <div class="col-sm">
+
+    <h1 style="text-align: center">Angular Reactive Configurable form </h1>
+    <br/>
+    <div class="app">
     <dynamic-form
       [config]="config"
       #form="dynamicForm"
@@ -17,6 +27,14 @@ import { Validators } from '@angular/forms';
     {{ form.valid }}
     {{ form.value | json }}
   </div>
+    </div>
+    <div class="col-sm">
+      
+    </div>
+  </div>
+</div>
+
+
 
   <router-outlet></router-outlet>
 `
@@ -29,14 +47,14 @@ export class AppComponent implements AfterViewInit {
   config: FieldConfig[] = [
     {
       type: 'input',
-      label: 'name',
+      label: 'Name',
       name: 'name',
       placeholder: 'Enter your name',
       validation: [Validators.required, Validators.minLength(4)]
     },
     {
       type: 'input',
-      label: 'last name',
+      label: 'Last Name',
       name: 'last name',
       placeholder: 'Enter your last name',
       validation: [Validators.required, Validators.minLength(4)]

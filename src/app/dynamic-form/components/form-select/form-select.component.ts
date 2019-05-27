@@ -9,10 +9,10 @@ import { Field } from '../../models/field.interface';
   styleUrls: ['./form-select.component.css'],
   template: `
   <div 
-    class="dynamic-field form-select"
+    class="dynamic-field form-select form-group"
     [formGroup]="group">
     <label>{{ config.label }}</label>
-    <select [formControlName]="config.name">
+    <select class="form-control" [formControlName]="config.name">
       <option value="">{{ config.placeholder }}</option>
       <option *ngFor="let option of config.options">
         {{ option }}
